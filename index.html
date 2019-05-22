@@ -1,10 +1,92 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+	<meta name="format-detection" content="telphone=no, email=no"/>
+	<title>新闻网-首页</title>
+	<!-- <link rel="shortcut icon" type="image/ico" href="/favicon.ico"/> -->
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/hotlist.js"></script>
+	<script src="js/bmxx.js"></script>
+	<script>
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		window.location ="wap.php"; //可以换成http地址
+		}
+	</script>
 </head>
 <body>
-	hello word!
+	<div class="box">
+		<div class="top">
+			<ul>
+				<li><a href="javascript:;">网站首页</a></li>
+				<li><a href="javascript:;">国内新闻</a></li>
+				<li><a href="javascript:;">房产新闻</a></li>
+				<li><a href="javascript:;">汽车新闻</a></li>
+				<li><a href="javascript:;">科技新闻</a></li>
+				<li><a href="javascript:;">旅游新闻</a></li>
+				<li><a href="javascript:;">开发者头条</a></li>
+				<li><a href="http://report.12377.cn:13225/toreportinputNormal_anis.do" target="_blank">不良信息举报</a></li>
+			</ul>
+		</div>
+		<div class="header">
+			<div class="h-left">
+				<div class="hot-tit">热点新闻</div>
+				<div class="hot-list">
+					<script>hotlist()</script>
+				</div>
+			</div>
+			<div class="h-right">
+				<div class="main" id="main">
+					<div class="banner" id="banner">
+						<a href="javascript:;">
+							<div class="slide slide1 active"><img src="img/a1.jpg" alt=""></div>
+						</a>
+						<a href="javascript:;">
+							<div class="slide slide2"><img src="img/a2.jpg" alt=""></div>
+						</a>
+						<a href="javascript:;">
+							<div class="slide slide3"><img src="img/a3.jpg" alt=""></div>
+						</a>
+						<a href="javascript:;">
+							<div class="slide slide4"><img src="img/a4.jpg" alt=""></div>
+						</a>
+						<a href="javascript:;">
+							<div class="slide slide4"><img src="img/a5.jpg" alt=""></div>
+						</a>
+						<a href="javascript:;">
+							<div class="slide slide4"><img src="img/a6.jpg" alt=""></div>
+						</a>
+					</div>
+					<a href="javascript:;" class="button up" id="up"></a>
+					<a href="javascript:;" class="button down" id="down"></a>
+					<div class="dots" id="dots">
+						<span class="active"></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+			</div>
+			<div class="bmxx">
+				<script> bmxx()	</script>
+				<div class="six">加粗加红10元/个<br>15357240395</div>
+			</div>
+		</div>
+		<div class="ad01" style="display: none;"><a href="javascript:;"><img src="image/ChsEnVx3eW6AKUbAAABZ8zy7tVA792.jpg" alt=""></a></div>
+		<div class="middle">
+			<div class="step1">
+				<div class="step1-a step"></div>
+				<div class="step1-b step"></div>
+				<div class="step1-c step"></div>
+			</div>
+		</div>
+		<div class="footer"></div>
+	</div>
+	<script src="js/js.js"></script>
 </body>
 </html>
