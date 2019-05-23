@@ -15,12 +15,12 @@ body,a,p{font-family: "Courier New", Courier, monospace}
 .top ul li a:hover{color: red;}
 /**/
 .main{width: 1300px;margin: 0 auto;height: auto;}
-.main-l{float: left;width: 800px;}
+.main-l{width: 1000px;margin: 0 auto;}
 .main-l div{width: 98%;height: 150px;border-bottom: 1px dashed #ccc;margin: 0 auto 20px;padding-top: 10px;}
 .main-l div img{float: left;width: 200px;height: 120px;margin-right: 10px;}
-.main-r{float: right;width: 450px;height: 900px;background:rgba(192,195,198,.2);margin-top: 10px;}
+/*.main-r{float: right;width: 450px;height: 900px;background:rgba(192,195,198,.2);margin-top: 10px;}
 .main-r div{width: 98%;height: 100px;margin: 15px auto 10px;float: left;border-bottom: 1px solid #ccc;}
-.main-r div img{width: 130px;height:90px;float: left;}
+.main-r div img{width: 130px;height:90px;float: left;}*/
 /*底部布局*/
 .footer{width: 100%;height: 300px;margin: 20px 0 0;background:#2B373D;clear: both;}
 .foot{width: 1300px;height: 200px;margin: 0 auto;border-bottom: 1px dashed #ccc;}

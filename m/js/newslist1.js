@@ -8,29 +8,29 @@
 	"中国移动推出首个5G套餐，最贵248元？ 回复：消息不属实"
 	]
 	link=[
-	"html/201905231334.html",
-	"html/201905231314.html",
-	"html/201905231253.html",
-	"html/201905231114.html",
-	"html/201905231050.html",
-	"html/201905222201.html"
+	"201905231334.html",
+	"201905231314.html",
+	"201905231253.html",
+	"201905231114.html",
+	"201905231050.html",
+	"201905222201.html"
 	]
-	// ad=[
-	// "'http://www.baidu.com' target='_blank'",
-	// "'http://www.baidu.com' target='_blank'",
-	// "'http://www.baidu.com' target='_blank'",
-	// "'http://www.baidu.com' target='_blank'",
-	// "'http://www.baidu.com' target='_blank'",
-	// "'http://www.baidu.com' target='_blank'"
-	// ]
-	// img=[
-	// "../img/a4.jpg",
-	// "../img/a4.jpg",
-	// "../img/a4.jpg",
-	// "../img/a4.jpg",
-	// "../image/1124525890_1558485903043_title0h.jpg",
-	// "../image/1124525890_1558485903043_title0h.jpg"
-	// ]
+	ad=[
+	"'http://www.baidu.com' target='_blank'",
+	"'http://www.baidu.com' target='_blank'",
+	"'http://www.baidu.com' target='_blank'",
+	"'http://www.baidu.com' target='_blank'",
+	"'http://www.baidu.com' target='_blank'",
+	"'http://www.baidu.com' target='_blank'"
+	]
+	img=[
+	"../img/a4.jpg",
+	"../img/a4.jpg",
+	"../img/a4.jpg",
+	"../img/a4.jpg",
+	"../image/1124525890_1558485903043_title0h.jpg",
+	"../image/1124525890_1558485903043_title0h.jpg"
+	]
 	for(var i=0;i<newslist.length;i++){
 		document.write("<div class='news'>"+"<a href="+link[i]+">"+newslist[i]+"</a>"+"</div>");
 	}

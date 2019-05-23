@@ -1,13 +1,13 @@
 ﻿function hotnews(){
 	hotnews=[
-	"习近平：贯彻新发展理念 奋力开创中部地区崛起新局面",
-	"总书记为何这个时候来到于都"
-	]
+	"互联网神人之中国站长李兴平",
+	"奔驰女司机闯红灯致13伤 被指事发时穿松糕鞋",
+	];
 	link=[
-	"'http://www.baidu.com' target='_blank'",
-	"'http://www.baidu.com' target='_blank'"
-	]
-	for(var i=0;i<hotnews.length;i++){
+	"html/201905231208.html",
+	"html/201905231050.html",
+	];
+	for(var i=0;i<2;i++){
 		document.write("<div>"+"<a href="+link[i]+">"+hotnews[i]+"</a>"+"</div>");
 	}
 }

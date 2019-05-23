@@ -22,4 +22,13 @@ body,a,p{font-family: "Courier New", Courier, monospace}
 .newslist div img{width: 100%;}
 /**/
 .main{width: 100%;height: auto;padding: 10px;font-size: 0.8rem;margin: 0 0 40px;}
-.main p{font-size: initial;margin: 20px 0;}
+.main img{width: 100%;}
+.main p{font-size: 1.2rem;margin: 20px 0;}
+/**/
+.share{margin: 20px 0;}
+/**/
+.ad01,.ad02{display: none;}
+.ad01{width: 100%;height: 90px;margin: 10px 0 20px;}
+.ad01 img{width: 100%;height: 90px;}
+.ad02{width: 100%;height: 250px;margin: 10px 0 20px;}
+.ad02 img{width: 100%;height: 250px;}
