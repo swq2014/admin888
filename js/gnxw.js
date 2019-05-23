@@ -1,82 +1,58 @@
 ﻿function gnxw(){
 	gnnews=[
-	"这是一个国内新闻",
-	"这是一个国内新闻",
-	"这是一个国内新闻",
-	"这是一个国内新闻",
-	"这是一个国内新闻",
-	"这是一个国内新闻",
-	"这是一个国内新闻",
-	"这是一个国内新闻",
-	"这是一个国内新闻",
-	"这是一个国内新闻"
+	"染头发的13岁多多和深夜蹦迪的12岁李嫣，你更不能接受谁",
+	"天津航空一航班疑因机械故障返航备降 已安全落地",
+	"朱一龙回应念错字，把纨绔子弟说成胯胯子弟，工作室给出惩罚标准",
+	"王源吸烟照曝光后引热议，现已主动联系卫生监督部门接受处罚",
+	"奔驰女司机闯红灯致13伤 被指事发时穿松糕鞋",
+	"中国移动推出首个5G套餐，最贵248元？ 回复：消息不属实"
 	];
 	gnlink=[
-	"'http://www.baidu.com' target='_blank'",
-	"'http://www.baidu.com' target='_blank'",
-	"'http://www.baidu.com' target='_blank'",
-	"'http://www.baidu.com' target='_blank'",
-	"'http://www.baidu.com' target='_blank'",
-	"'http://www.baidu.com' target='_blank'",
-	"'http://www.baidu.com' target='_blank'",
-	"'http://www.baidu.com' target='_blank'",
-	"'http://www.baidu.com' target='_blank'",
-	"'http://www.baidu.com' target='_blank'"
+	"html/201905231334.html",
+	"html/201905231314.html",
+	"html/201905231253.html",
+	"html/201905231114.html",
+	"html/201905231050.html",
+	"html/201905222201.html"
 	];
 	img=[
-	"../image/1124525890_1558485903043_title0h.jpg",
-	"../image/1124525890_1558485903043_title0h.jpg",
-	"../image/1124525890_1558485903043_title0h.jpg",
-	"../image/1124525890_1558485903043_title0h.jpg",
-	"../image/1124525890_1558485903043_title0h.jpg",
-	"../image/1124525890_1558485903043_title0h.jpg",
-	"../image/1124525890_1558485903043_title0h.jpg",
-	"../image/1124525890_1558485903043_title0h.jpg",
-	"../image/1124525890_1558485903043_title0h.jpg",
-	"../image/1124525890_1558485903043_title0h.jpg"
+	"../image/u=1939557102,788373749&fm=173&app=49&f=JPEG.jpg",
+	"../image/u=1536294569,22235442&fm=173&app=49&f=JPEG.jpg",
+	"../image/u=2354474479,3596677814&fm=173&app=49&f=JPG.jpg",
+	"../image/u=2883620119,2305989409&fm=173&app=49&f=PNG.jpg",
+	"../image/u=1280592657,2229055915&fm=173&app=49&f=JPEG.jpg",
+	"../image/yidong.png",
 	];
-	for(i=0;i<10;i++){
+	for(i=0;i<gnnews.length;i++){
 		document.write("<div>"+"<a href="+gnlink[i]+">"+"<img src="+img[i]+">"+gnnews[i]+"</a>"+"</div>");
 	}
 }
-function gnxw1(){
-	gnnews=[
-	"这是一个国内新闻",
-	"这是一个国内新闻",
-	"这是一个国内新闻",
-	"这是一个国内新闻",
-	"这是一个国内新闻",
-	"这是一个国内新闻",
-	"这是一个国内新闻",
-	"这是一个国内新闻",
-	"这是一个国内新闻",
-	"这是一个国内新闻"
-	];
-	gnlink=[
-	"'http://www.baidu.com' target='_blank'",
-	"'http://www.baidu.com' target='_blank'",
-	"'http://www.baidu.com' target='_blank'",
-	"'http://www.baidu.com' target='_blank'",
-	"'http://www.baidu.com' target='_blank'",
-	"'http://www.baidu.com' target='_blank'",
-	"'http://www.baidu.com' target='_blank'",
-	"'http://www.baidu.com' target='_blank'",
-	"'http://www.baidu.com' target='_blank'",
-	"'http://www.baidu.com' target='_blank'"
-	];
-	img=[
-	"../image/1124525890_1558485903043_title0h.jpg",
-	"../image/1124525890_1558485903043_title0h.jpg",
-	"../image/1124525890_1558485903043_title0h.jpg",
-	"../image/1124525890_1558485903043_title0h.jpg",
-	"../image/1124525890_1558485903043_title0h.jpg",
-	"../image/1124525890_1558485903043_title0h.jpg",
-	"../image/1124525890_1558485903043_title0h.jpg",
-	"../image/1124525890_1558485903043_title0h.jpg",
-	"../image/1124525890_1558485903043_title0h.jpg",
-	"../image/1124525890_1558485903043_title0h.jpg"
-	];
-	for(i=0;i<7;i++){
-		document.write("<div>"+"<a href="+gnlink[i]+">"+"<img src="+img[i]+">"+gnnews[i]+"</a>"+"</div>");
-	}
-}
+// function gnxw1(){
+// 	gnnews=[
+// 	"染头发的13岁多多和深夜蹦迪的12岁李嫣，你更不能接受谁",
+// 	"天津航空一航班疑因机械故障返航备降 已安全落地",
+// 	"朱一龙回应念错字，把纨绔子弟说成胯胯子弟，工作室给出惩罚标准",
+// 	"王源吸烟照曝光后引热议，现已主动联系卫生监督部门接受处罚",
+// 	"奔驰女司机闯红灯致13伤 被指事发时穿松糕鞋",
+// 	"中国移动推出首个5G套餐，最贵248元？ 回复：消息不属实"
+// 	];
+// 	gnlink=[
+// 	"html/201905231334.html",
+// 	"html/201905231314.html",
+// 	"html/201905231253.html",
+// 	"html/201905231114.html",
+// 	"html/201905231050.html",
+// 	"html/201905222201.html"
+// 	];
+// 	img=[
+// 	"../image/u=1939557102,788373749&fm=173&app=49&f=JPEG.jpg",
+// 	"../image/u=1536294569,22235442&fm=173&app=49&f=JPEG.jpg",
+// 	"../image/u=2354474479,3596677814&fm=173&app=49&f=JPG.jpg",
+// 	"../image/u=2883620119,2305989409&fm=173&app=49&f=PNG.jpg",
+// 	"../image/u=1280592657,2229055915&fm=173&app=49&f=JPEG.jpg",
+// 	"../image/yidong.png",
+// 	];
+// 	for(i=0;i<gnnews.length;i++){
+// 		document.write("<div>"+"<a href="+gnlink[i]+">"+"<img src="+img[i]+">"+gnnews[i]+"</a>"+"</div>");
+// 	}
+// }
